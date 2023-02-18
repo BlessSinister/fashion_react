@@ -20,7 +20,7 @@ function Main() {
             <div className="col s12 m6">
               <div className="card">
                 <div className="card-image">
-                  <img src={card1} />
+                  <img src={card1} alt="карточка" />
                 </div>
                 <div className="card-content">
                   <p className="main__item__title">Tourism</p>
@@ -37,7 +37,7 @@ function Main() {
             <div className="col s12 m6">
               <div className="card">
                 <div className="card-image">
-                  <img src={card2} />
+                  <img src={card2} alt="карточка" />
                 </div>
                 <div className="card-content">
                   <p className="main__item__title">Sport</p>
@@ -56,7 +56,7 @@ function Main() {
             <div className="col s12 m6">
               <div className="card">
                 <div className="card-image">
-                  <img src={card3} />
+                  <img src={card3} alt="карточка" />
                 </div>
                 <div className="card-content">
                   <p className="main__item__title">Fashion</p>
@@ -73,7 +73,7 @@ function Main() {
             <div className="col s12 m6">
               <div className="card">
                 <div className="card-image">
-                  <img src={card4} />
+                  <img src={card4} alt="карточка" />
                 </div>
                 <div className="card-content">
                   <p className="main__item__title">Clothes</p>
@@ -92,7 +92,7 @@ function Main() {
             <div className="col s12 m6">
               <div className="card">
                 <div className="card-image">
-                  <img src={card5} />
+                  <img src={card5} alt="карточка" />
                 </div>
                 <div className="card-content">
                   <p className="main__item__title">Clothes</p>
@@ -109,7 +109,7 @@ function Main() {
             <div className="col s12 m6">
               <div className="card">
                 <div className="card-image">
-                  <img src={card6} />
+                  <img src={card6} alt="карточка" />
                 </div>
                 <div className="card-content">
                   <p className="main__item__title">Fashion</p>
@@ -127,7 +127,7 @@ function Main() {
         </article>
         <article className="main__content__bigblock__item z-depth-2">
           <div className="main__content__bigblock__img">
-            <img src={card7} />
+            <img src={card7} alt="карточка" />
           </div>
           <div className="bigblock__content_part">
             <p className="main__item__title">Summer</p>
@@ -167,7 +167,7 @@ function Main() {
             <div className="col s12 m6">
               <div className="card">
                 <div className="card-image">
-                  <img src={card8} />
+                  <img src={card8} alt="карточка" />
                 </div>
                 <div className="card-content">
                   <p className="main__item__title">Autumn</p>
@@ -184,7 +184,7 @@ function Main() {
             <div className="col s12 m6">
               <div className="card">
                 <div className="card-image">
-                  <img src={card9} />
+                  <img src={card9} alt="карточка" />
                 </div>
                 <div className="card-content">
                   <p className="main__item__title">Clothes</p>
@@ -203,7 +203,7 @@ function Main() {
             <div className="col s12 m6">
               <div className="card">
                 <div className="card-image">
-                  <img src={card10} />
+                  <img src={card10} alt="карточка" />
                 </div>
                 <div className="card-content">
                   <p className="main__item__title">Summer</p>
@@ -220,7 +220,7 @@ function Main() {
             <div className="col s12 m6">
               <div className="card">
                 <div className="card-image">
-                  <img src={card11} />
+                  <img src={card11} alt="карточка" />
                 </div>
                 <div className="card-content">
                   <p className="main__item__title">Summer</p>
@@ -238,7 +238,36 @@ function Main() {
         </article>
         <article></article>
       </section>
-      <section classNameName="social__section__wrapper"></section>
+      <section
+        classNameName="social__section__wrapper"
+        style={{ width: '270px', height: '2566px' }}
+      >
+        <div className="social__section__title">About the author</div>
+        <div className="row">
+          <div className="col ">
+            <div className="card">
+              <div className="card-image">
+                <img src={card10} alt="карточка" />
+              </div>
+              <div className="card-content">
+                <p className="main__item__title">Summer</p>
+                <p className="main__item__contetn">
+                  One of Saturn’s largest rings <br /> may be newer than anyone
+                </p>
+                <p className="main__item__date">
+                  June 6, 2019 By Rickie Baroch
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className=" social__section__title"> Featured posts</div>
+        <div className=""></div>
+        <div className=""></div>
+        <div className=""></div>
+        <div className=""></div>
+        <div className=""></div>
+      </section>
     </main>
   )
 }

@@ -22,6 +22,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
+  margin: 0;
   line-height: 33px;
   letter-spacing: 2.5px;
   text-decoration: underline rgba(201, 169, 110, 1);
@@ -77,6 +78,9 @@ ul {
 }
 .vitrina__opacity__el {
   color: rgba(255, 255, 255, 0.8);
+}
+.content__section__wrapper {
+  margin-right: 130px;
 }
 .main__container {
   display: flex;
@@ -145,4 +149,16 @@ ul {
   font-size: 20px;
   line-height: 26px;
   color: #171717;
+}
+.social__section__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #171717;
+  border: 1px solid #e5e5e5;
+  height: 50px;
+  margin-bottom: 20px;
 }
