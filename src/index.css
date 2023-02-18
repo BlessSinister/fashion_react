@@ -83,7 +83,7 @@ ul {
   justify-content: center;
 }
 .card-image {
-  max-width: 370px;
+  max-width: 375px;
   width: 100%;
 }
 .big {
@@ -102,6 +102,7 @@ ul {
 .main__item__contetn {
   font-size: 20px;
   line-height: 28px;
+  margin-bottom: 10px;
   /* or 140% */
 
   text-align: center;
@@ -111,10 +112,37 @@ ul {
 .main__item__date {
   font-size: 12px;
   line-height: 16px;
+  margin-top: 10px;
+  margin-bottom: 14px;
 }
 .main__content__bigblock__item {
   max-width: 770px;
   width: 100%;
   height: 561px;
-  border: 1px solid black;
+  margin-bottom: 30px;
+  margin-left: 11.25px;
+  margin-right: 11.25px;
+}
+.bigblock__content_part {
+  padding-left: 30px;
+  padding-top: 25px;
+}
+.lorem__content {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  margin-top: 14px;
+  margin-bottom: 25px;
+
+  color: #666666;
+}
+.bigblock__item__contetn {
+  margin-top: 6px;
+  margin-bottom: 11px;
+  font-size: 20px;
+  line-height: 26px;
+  color: #171717;
 }

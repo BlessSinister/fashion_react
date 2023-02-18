@@ -125,7 +125,25 @@ function Main() {
             </div>
           </div>
         </article>
-        <article className="main__content__bigblock__item">
+        <article className="main__content__bigblock__item z-depth-2">
+          <div className="main__content__bigblock__img">
+            <img src={card7} />
+          </div>
+          <div className="bigblock__content_part">
+            <p className="main__item__title">Summer</p>
+            <p className="bigblock__item__contetn">
+              One of Saturn’s largest rings may be newer than anyone
+            </p>
+            <p className="main__item__date">
+              June 6, 2019 By Rickie Baroch 6 comments
+            </p>
+            <p className="lorem__content">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium,
+              <br /> totam rem sed ut perspiciatis unde omnis iste natus error
+              sit voluptatem accusantium doloremque <br /> laudantium, totam rem
+            </p>
+          </div>
           {/* <img src={card7} />
 
           <div className="card-content">
