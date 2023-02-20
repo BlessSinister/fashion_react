@@ -113,6 +113,7 @@ ul {
 
   color: #171717;
 }
+
 .main__item__date {
   font-size: 12px;
   line-height: 16px;
@@ -239,4 +240,76 @@ ul {
   line-height: 19px;
 
   color: #666666;
+}
+.social__block_card1 {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #171717;
+}
+.social__card1__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.social__card1__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social__card1__content > h2 {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #171717;
+  margin: 20px 0 4px 0;
+}
+.social__card1__decor {
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #b1b1b1;
+}
+.social__card1__common {
+  text-align: center;
+  padding: 0 20px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  margin-bottom: 14px;
+
+  color: #666666;
+}
+.social__card1__st {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e5e5e5;
+
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  height: 40px;
+  color: #c9a96e;
 }

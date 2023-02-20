@@ -1,4 +1,8 @@
 import card10 from '../components/img/card10.png'
+import social_card1 from '../components/img/social_card1.png'
+import social_card2 from '../components/img/social_card2.png'
+import social_card3 from '../components/img/social_card3.png'
+import social_card4 from '../components/img/social_card4.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faFacebookF,
@@ -45,28 +49,30 @@ function Social() {
       style={{ width: '270px', height: '2566px' }}
     >
       <div className="social__section__title">About the author</div>
-      <div className="row">
-        <div className="col">
-          <div className="card">
-            <div className="card-image">
-              <img src={card10} alt="карточка" />
-            </div>
-            <div className="card-content">
-              <p className="main__item__title">Summer</p>
-              <p className="main__item__contetn">
-                One of Saturn’s largest rings <br /> may be newer than anyone
-              </p>
-              <p className="main__item__date">June 6, 2019 By Rickie Baroch</p>
-            </div>
-          </div>
+
+      <div className="social__card1__container  z-depth-2">
+        <div className="social__card1__img">
+          <img src={social_card1} alt="карточка" />
+        </div>
+        <div className="social__card1__content">
+          <h2 className="social__block_card1">Kate Willems</h2>
+          <p className="social__card1__decor">Food & cooking bloger</p>
+          <p className="social__card1__common">
+            Hi, I'm Sonia. Cooking is the way I express my creative side to the
+            world. Welcome to my Kitchen Corner on…
+          </p>
+        </div>
+        <div className="social__card1__st">
+          <p>Continue Reading</p>
         </div>
       </div>
+
       <div className=" social__section__title"> Featured posts</div>
       <div className="row">
         <div className="col ">
           <div className="card">
             <div className="card-image">
-              <img src={card10} alt="карточка" />
+              <img src={social_card2} alt="карточка" />
             </div>
             <div className="card-content">
               <p className="main__item__title">Summer</p>
@@ -82,7 +88,7 @@ function Social() {
         <div className="col">
           <div className="card">
             <div className="card-image">
-              <img src={card10} alt="карточка" />
+              <img src={social_card3} alt="карточка" />
             </div>
             <div className="card-content">
               <p className="main__item__title">Summer</p>
@@ -98,7 +104,7 @@ function Social() {
         <div className="col ">
           <div className="card">
             <div className="card-image">
-              <img src={card10} alt="карточка" />
+              <img src={social_card4} alt="карточка" />
             </div>
             <div className="card-content">
               <p className="main__item__title">Summer</p>
