@@ -215,3 +215,28 @@ ul {
 
   color: #999999;
 }
+.mt {
+  margin-top: 70px;
+}
+.social__tags__container {
+  max-width: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.social__tags__item {
+  display: inline-block;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 15px;
+  background: #f8f9fa;
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #666666;
+}
