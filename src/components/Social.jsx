@@ -45,7 +45,7 @@ let socialMediaTags = [
 function Social() {
   return (
     <section
-      classNameName="social__section__wrapper"
+      className="social__section__wrapper"
       style={{ width: '270px', height: '2566px' }}
     >
       <div className="social__section__title">About the author</div>

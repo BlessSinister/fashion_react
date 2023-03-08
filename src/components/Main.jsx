@@ -220,7 +220,17 @@ function Main() {
             </div>
           </div>
         </article>
-        <article></article>
+        <article className="main__content__soder">
+          <i className="material-icons left_arrow">keyboard_arrow_left</i>
+          <p className="soder__old">OLDER POST</p>
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>...</p>
+          <p>8</p>
+          <p>NEXT POST</p>
+          <i className="material-icons right_arrow">keyboard_arrow_right</i>
+        </article>
       </section>
       <Social />
     </main>

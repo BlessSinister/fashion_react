@@ -1,4 +1,6 @@
+import Footer from './components/Footer'
 import Header from './components/Header'
+import Insta from './components/Insta'
 import Main from './components/Main'
 import Vitrina from './components/Vitrina'
 
@@ -8,6 +10,8 @@ function App() {
       <Header />
       <Vitrina />
       <Main />
+      <Insta />
+      <Footer />
     </>
   )
 }
