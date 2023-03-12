@@ -75,8 +75,8 @@ function Social() {
               <img src={social_card2} alt="карточка" />
             </div>
             <div className="card-content">
-              <p className="main__item__title">Summer</p>
-              <p className="main__item__contetn">
+              <p className="main__item__title">Jeans</p>
+              <p className="main__item__contetn size_edition">
                 One of Saturn’s largest rings <br /> may be newer than anyone
               </p>
               <p className="main__item__date">June 6, 2019 By Rickie Baroch</p>
@@ -91,8 +91,8 @@ function Social() {
               <img src={social_card3} alt="карточка" />
             </div>
             <div className="card-content">
-              <p className="main__item__title">Summer</p>
-              <p className="main__item__contetn">
+              <p className="main__item__title">City</p>
+              <p className="main__item__contetn size_edition">
                 One of Saturn’s largest rings <br /> may be newer than anyone
               </p>
               <p className="main__item__date">June 6, 2019 By Rickie Baroch</p>
@@ -107,8 +107,8 @@ function Social() {
               <img src={social_card4} alt="карточка" />
             </div>
             <div className="card-content">
-              <p className="main__item__title">Summer</p>
-              <p className="main__item__contetn">
+              <p className="main__item__title">Photography</p>
+              <p className="main__item__contetn size_edition">
                 One of Saturn’s largest rings <br /> may be newer than anyone
               </p>
               <p className="main__item__date">June 6, 2019 By Rickie Baroch</p>
